@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+*{
+   margin:0;
+   padding:0;
+}
+
+body {
+   box-sizing: border-box;
+   background: #000000;
+   color: #F6F6F6;
+}
+
+.cabecalho {
+    padding: 2% 0 0 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    color: #22D4FD;
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.apresentacao {
+   padding: 4% 15%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 82px;
+}
+
+.apresentacao__conteudo{
+   width: 615px;
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 32px;
+  }
+
+.titulo-destaque {
+   color: #22D4FD;
+}
+
+.apresentacao__conteudo__texto {
+   font-size: 16px;
+   font-family: 'Montserrat', sans-serif;
+
+}
+
+.apresentacao__links {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.apresetacao__links__subtitulo{
+   
+   font-family: 'krona one' , sans-serif;
+   font-weight: 400;
+   font-size: 20px;
+}
+
+.apresentacao__links__link {
+   display:flex;
+   justify-content: center;
+   gap: 14px;
+   border: 1px solid #22D4FD;
+   width: 200px;
+   text-align: center;
+   border-radius: 8px;
+   font-size: 30px;
+   font-weight: 600;
+   padding: 21.5px 0;
+   text-decoration: none;
+   color: #F6F6F6;
+   font-family: 'Montserrat', sans-serif;
+
+}
+.apresentacao__links__link:hover {
+    background: #272727;
+    transform: scale(1.2);
+}
+
+.rodape{
+   font-family: 'Montserrat';
+   font-style: normal;
+   color: #000000;
+   background: #22D4FD;
+   text-align: center;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 36px;
+}
+
+@media (max-width: 1200px) {
+   
+   .cabecalho {
+       padding:10%;
+   }
+
+   .cabecalho__menu {
+       
+       justify-content: center;
+
+   }
+
+   .apresentacao {
+
+      flex-direction: column-reverse;
+      padding: 5%;
+   }
+
+   .apresentacao__conteudo {
+       
+       width: auto;
+
+   }
+
+}
